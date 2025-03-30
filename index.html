@@ -1,0 +1,128 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Velada del Año 5 - Evento Especial</title>
+    <link rel="stylesheet" href="css/contact.css">
+    <link rel="stylesheet" href="css/hero.css">
+    <link rel="stylesheet" href="css/participants.css">
+    <link rel="stylesheet" href="css/schedule.css">
+    <link rel="stylesheet" href="css/tickets.css">
+    <link rel="stylesheet" href="css/general.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
+</head>
+<body>
+    <header>
+        <div class="logo">
+            <h1>VELADA <span>DEL AÑO 5</span></h1>
+            <p>26 de julio de 2025</p>
+        </div>
+        <nav>
+            <ul>
+                <li><a href="#inicio">Inicio</a></li>
+                <li><a href="#participantes">Combates</a></li>
+                <li><a href="#horario">Horario</a></li>
+                <li><a href="#entradas">Entradas</a></li>
+                <li><a href="#contacto">Contacto</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <section id="inicio" class="hero">
+        <div class="hero-content">
+            <h2>El Evento Más Esperado</h2>
+            <p>Prepárate para la noche de combates, sorpresas y entretenimiento</p>
+            <button id="cta-button" class="btn">¡Quiero mis entradas!</button>
+        </div>
+        <div class="countdown">
+            <h3>Faltan:</h3>
+            <div id="countdown-timer">
+                <div><span id="days">00</span><br>Días</div>
+                <div><span id="hours">00</span><br>Horas</div>
+                <div><span id="minutes">00</span><br>Minutos</div>
+                <div><span id="seconds">00</span><br>Segundos</div>
+            </div>
+        </div>
+    </section>
+
+    <section id="participantes" class="participants">
+        <h2>LOS COMBATES</h2>
+        <div class="participants-grid">
+        </div>
+    </section>
+
+    <section id="horario" class="schedule">
+        <h2>HORARIO DE EVENTOS</h2>
+        <div class="timeline">
+        </div>
+    </section>
+
+    <section id="entradas" class="tickets">
+        <h2>ENTRADAS</h2>
+        <div class="ticket-options">
+            <div class="ticket-card">
+                <h3>Grada</h3>
+                <p class="price">€35 - €95</p>
+                <ul>
+                    <li>Acceso al evento</li>
+                    <li>Transmisión en vivo</li>
+                    <li>Soporte básico</li>
+                </ul>
+                <button class="btn">Comprar</button>
+            </div>
+            <div class="ticket-card popular">
+                <div class="popular-tag">POPULAR</div>
+                <h3>Tribuna</h3>
+                <p class="price">€100 - €170</p>
+                <ul>
+                    <li>Acceso prioritario</li>
+                    <li>Transmisión en HD</li>
+                    <li>Chat exclusivo</li>
+                    <li>Merchandising</li>
+                </ul>
+                <button class="btn">Comprar</button>
+            </div>
+            <div class="ticket-card">
+                <h3>Pista</h3>
+                <p class="price">€100 - €170</p>
+                <ul>
+                    <li>Acceso backstage</li>
+                    <li>Meet & Greet</li>
+                    <li>Transmisión 4K</li>
+                    <li>Regalo exclusivo</li>
+                </ul>
+                <button class="btn">Comprar</button>
+            </div>
+        </div>
+    </section>
+
+    <section id="contacto" class="contact">
+        <h2>CONTACTO</h2>
+        <form id="contact-form">
+            <div class="form-group">
+                <input type="text" id="name" placeholder="Nombre" required>
+            </div>
+            <div class="form-group">
+                <input type="email" id="email" placeholder="Email" required>
+            </div>
+            <div class="form-group">
+                <textarea id="message" placeholder="Mensaje" required></textarea>
+            </div>
+            <button type="submit" class="btn">Enviar Mensaje</button>
+        </form>
+        <div class="social-media">
+            <a href="#"><i class="fab fa-twitter"></i></a>
+            <a href="#"><i class="fab fa-instagram"></i></a>
+            <a href="#"><i class="fab fa-youtube"></i></a>
+            <a href="#"><i class="fab fa-twitch"></i></a>
+        </div>
+    </section>
+
+    <footer>
+        <p>&copy; 2025 Velada del Año 5. Todos los derechos reservados.</p>
+    </footer>
+
+    <script src="js/script.js"></script>
+</body>
+</html>

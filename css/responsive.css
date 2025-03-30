@@ -1,0 +1,52 @@
+/* Responsive Design */
+@media (max-width: 768px) {
+    header {
+        flex-direction: column;
+        padding: 20px;
+    }
+
+    nav ul {
+        margin-top: 20px;
+    }
+
+    nav ul li {
+        margin: 0 10px;
+    }
+
+    .hero-content h2 {
+        font-size: 2rem;
+    }
+
+    .hero-content p {
+        font-size: 1.2rem;
+    }
+
+    #countdown-timer {
+        flex-wrap: wrap;
+    }
+
+    .timeline::after {
+        left: 31px;
+    }
+
+    .event {
+        width: 100%;
+        padding-left: 70px;
+        padding-right: 25px;
+    }
+
+    .event::after {
+        left: 18px;
+    }
+
+    .left::before, .right::before {
+        left: 60px;
+        border: medium solid #444;
+        border-width: 10px 10px 10px 0;
+        border-color: transparent #444 transparent transparent;
+    }
+
+    .left, .right {
+        left: 0;
+    }
+}
